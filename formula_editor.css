@@ -1,0 +1,71 @@
+.default-style {
+	font-size: x-large;
+	font-family: 'Roboto', sans-serif;
+}
+
+#formula-editor {
+	border: solid 1px;
+	border-color: silver;
+	border-radius: 6px;
+	width: 800px;
+	height: 80px;
+	overflow-y: auto;
+	padding: 5px;
+}
+
+#formula-editor:focus { 
+    outline:none;
+    border-color:#9ecaed;
+    box-shadow:0 0 10px #9ecaed;
+}
+
+.num-class {
+	color: steelblue;
+}
+
+.op-class {
+	color: purple;
+	font-weight: bold;
+	padding: 2px;
+}
+
+.par-class {
+	color: midnightblue;
+	font-weight: 600;
+}
+
+.unk-class {
+	color: darkred;
+	background-color: rgb(250, 232, 234);
+}
+
+.id-class {
+	color: mediumvioletred;
+	font-weight: 500;
+}
+
+.function-class {
+	color: teal;
+	font-weight: 600;
+	font-family: "Play";
+}
+
+.scol-class {
+	color: gray;
+	padding-right: 4px;
+}
+
+.log-class {
+	color:darkslategray;
+	padding: 4px;
+}
+
+.rel-class {
+	color:purple;
+	padding: 2px;
+}
+
+.str-class {
+	color: gray;
+	padding:1px;
+}
