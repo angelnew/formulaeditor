@@ -130,7 +130,7 @@ lexicalDict['SEMICOLON'] = new TokenTypeProperties(/^;/, 'scol-class')
 
 lexicalDict['LEFTPARENTHESIS'] = new TokenTypeProperties(/^\(/, 'par-class')
 lexicalDict['RIGHTPARENTESIS'] = new TokenTypeProperties(/^\)/, 'par-class')
-lexicalDict['FUNCTION'] = new TokenTypeProperties(/^(if|exp|log|find)/, 'function-class')
+lexicalDict['FUNCTION'] = new TokenTypeProperties(/^(if|exp|log|index)/, 'function-class')
 
 // default token when nothing else is matched
 lexicalDict['UNKNOWN'] = new TokenTypeProperties(/[\s\S]*/, 'unk-class')
